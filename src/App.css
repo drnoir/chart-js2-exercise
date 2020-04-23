@@ -1,5 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Raleway:wght@100;400&display=swap');
+
+h1,h2,h3,h4,h5{
+  font-family: 'Press Start 2P', cursive;
+}
+
+p{
+  font-family: 'Raleway', sans-serif;
+}
 .App {
   text-align: center;
+  font-family: 'Raleway', sans-serif;
 }
 
 .App-logo {
@@ -22,6 +32,12 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.chart-container{
+  background-color: whitesmoke;
+  border:2px solid black;
+  box-shadow: #FF6384  1px 5px 5px 2px;
 }
 
 .App-link {

@@ -1,3 +1,7 @@
+## React Chart JS 2 One Page Exercise App
+A react one page app for practicing to create charts with React Chart JS 2 with all required dependencies installed 
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
