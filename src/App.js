@@ -37,7 +37,7 @@ function App() {
         <hr className="my-2" />
         <h3>Instructions</h3>
         <p>Create one of each kind of chart avaliable in the React Chart Js package, the first one is done for you - Doughnut   </p>
-        <p>Refer to <a href ="https://github.com/jerairrest/react-chartjs-2/tree/master/example/src/components">The React Chart JS examples</a> for examples of each type to create one of 
+        <p>Refer to <a href ="https://github.com/jerairrest/react-chartjs-2/tree/master/example/src/components">The React Chart JS examples</a> or the src/examples folder for examples of each type to create one of 
           each of the chart types listed below.
         </p>
       </Jumbotron>
@@ -50,9 +50,11 @@ function App() {
       </Col>
       <Col>     
       <h5    className="text-center">Create a BarChart</h5>
+      {/* create a bar chart here */}
       </Col> 
       <Col>     
       <h5  className="text-center">Create a Pie Chart</h5>
+        {/* create a pie chart here */}
       </Col> 
     </Row>
 
@@ -60,12 +62,15 @@ function App() {
 
     <Col>
     <h5   className="text-center">Create a Line Chart</h5>
+          {/* create a line chart here */}
     </Col>
     <Col>     
     <h5   className="text-center">Create a Radar Chart</h5>
+     {/* create a radar here */}
     </Col> 
     <Col>     
     <h5  className="text-center">Create a Scatter Chart</h5>
+     {/* create a scatter chart here */}
     </Col> 
     </Row>
 
